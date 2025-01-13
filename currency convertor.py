@@ -40,7 +40,7 @@ def main():
             print('''
             Currencies must be input in
             abbreviations for example USD,
-            GBP,JPY,KES,CAD.The input can 
+            GBP,JPY,KES.The input can 
             either be in lower case or upper 
             case.
             ''')
