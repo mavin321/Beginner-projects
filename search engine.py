@@ -1,3 +1,5 @@
+#will return if query is in the url and how many times it occurs
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -67,7 +69,7 @@ def search_engine(url, query):
 
 
 #test
-url = 'https://en.wikipedia.org/wiki/Arsenal'
-query = 'what is an arsenal'
+url = 'https://en.wikipedia.org/wiki/Python_(programming_language)'
+query = 'python'
 results = search_engine(url, query)
 print(results)
